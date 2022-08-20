@@ -1,0 +1,50 @@
+@charset "utf-8";
+html body {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 78px;
+  margin: 0;
+  padding: 0;
+  background-color: #bfa;
+}
+html body #content {
+  width: 600px;
+  height: 300px;
+  background-color: aqua;
+  margin: 200px auto 0;
+  border-radius: 3%;
+  padding-top: 100px;
+}
+html body #content h1 {
+  position: absolute;
+  font-size: 30px;
+  margin: -73px 0 0 243px;
+  color: #bfa;
+}
+html body #content h1::selection {
+  background-color: #bfa;
+  color: #f00;
+}
+html body #content #txtNum {
+  width: 200px;
+  height: 200px;
+  line-height: 190px;
+  background-color: #00f;
+  border-radius: 50%;
+  color: #bfa;
+  position: relative;
+  margin: 0 auto;
+}
+html body #content #txtNum::selection {
+  background-color: #bfa;
+  color: #f00;
+}
+html body #content #button1 {
+  position: absolute;
+  margin: 50px 0 0 -200px;
+}
+html body #content input {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 100px;
+}
